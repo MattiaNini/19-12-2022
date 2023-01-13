@@ -1,0 +1,57 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.object {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-size: 72px;
+  background: linear-gradient(315deg, #fce043 0%, #fb7ba2 74%);
+  color: wheat;
+  justify-content: center;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.firstImg__img {
+  border: 2px solid;
+  width: 250px;
+  height: 300px;
+}
+
+.Switcher {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.Switcher button {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border-radius: 100%;
+  border: 2px solid;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.Switcher :hover {
+  background-color: purple;
+}
