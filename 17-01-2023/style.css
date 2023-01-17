@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+}
+
+header {
+  width: 100%;
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+  position: relative;
+}
+
+header .costruction {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+header .menu {
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 8px 8px grey;
+  position: absolute;
+  width: 250px;
+  height: 350px;
+  top: 60px;
+  z-index: 2;
+  opacity: 0;
+  transition: all 0, 33s;
+}
+
+section .hero {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+section .hero .img {
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  transition: all 0.33s;
+}
+
+.photo {
+  opacity: 1 !important;
+}
+
+section .comandi {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+section .comandi .btn {
+  width: 8px;
+  height: 8px;
+  border-radius: 40%;
+  background-color: black;
+  cursor: pointer;
+}
+
+.attiva {
+  background-color: rebeccapurple !important;
+}
+
+section .prodotti {
+  display: flex;
+  padding: 15px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+section .prodotti .card {
+  border: 1px solid black;
+  width: 250px;
+  height: 350px;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+section .prodotti .card .img {
+  width: 100%;
+  margin-bottom: 10px;
+  max-height: 100px;
+  object-fit: contain;
+}
+
+section .prodotti .card .titolo {
+  -ms-text-size-adjust: 10;
+  font-size: 25px;
+}
+
+section .prodotti .card .descrizione {
+  flex-grow: 1;
+}
+
+section .bestBuy .card .img {
+  width: 100%;
+}
+
+section .prodotti .card .button {
+  padding: 5px 10px;
+  background-color: black;
+  border: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1oxp;
+  border-radius: 5px;
+  width: 100%;
+}
+
+div .card {
+  text-align: left;
+}
+
+div .card .button {
+  padding: 5px;
+  margin: 20px;
+}
