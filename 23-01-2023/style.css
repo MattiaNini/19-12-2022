@@ -1,0 +1,22 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.product-card {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.35);
+  border-radius: 12px;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.product-card__text {
+  display: flex;
+  flex-direction: column;
+}
