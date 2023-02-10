@@ -1,0 +1,41 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+a,
+h1,
+h2,
+h3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+header {
+  box-shadow: black;
+}
+
+.bi-person-circle {
+  font-size: 3rem;
+  color: peru;
+  margin-right: 2rem;
+}
+
+.link-corsi {
+  color: whitesmoke;
+}
+
+.link-corsi:hover {
+  color: white;
+}
+
+.btn-odd {
+  background-color: bisque;
+}
+
+.btn-even {
+  background-color: beige;
+}
+
+#web-design {
+  padding: 5em;
+}
