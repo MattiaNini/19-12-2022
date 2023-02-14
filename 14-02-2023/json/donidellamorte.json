@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "63eba77e9298afcf57ae3751"
+  },
+  "titolo": "Harry Potter e i Doni della Morte parte 1",
+  "categoria": "fantasy",
+  "libro": "7",
+  "uscita": "2010",
+  "keywords": [
+    "Bacchetta di Sambuco",
+    "Spada Grifondoro"
+  ]
+},{
+  "_id": {
+    "$oid": "63eba77e9298afcf57ae3752"
+  },
+  "titolo": "Harry Potter e i Doni della Morte parte 2",
+  "categoria": "fantasy",
+  "libro": "8",
+  "uscita": "2011",
+  "keywords": [
+    "Horcrux",
+    "Padrone della Morte"
+  ]
+}]
