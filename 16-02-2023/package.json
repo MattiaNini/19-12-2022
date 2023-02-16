@@ -1,0 +1,19 @@
+{
+  "name": "16-02-2023",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Mattia Nini",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "mongoose": "^6.9.1",
+    "nodemon": "^2.0.20"
+  }
+}
