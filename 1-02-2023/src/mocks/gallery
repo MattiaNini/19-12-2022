@@ -1,0 +1,17 @@
+export const images = [
+  {
+    title: "Tokyo",
+    src: "https://www.google.com/search?q=tokyo+casa+di+carta+foto&sxsrf=AJOqlzWXZTRK_DqN83gWs_SxP57C9bYX8g:1677692511312&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiH6bbRo7v9AhUdS_EDHSFBDsUQ_AUoAXoECAEQAw&biw=727&bih=956&dpr=1#imgrc=Z3NYkpVXhTgujM",
+    alt: "TOKYO",
+  },
+  {
+    title: "Rio",
+    src: "https://www.google.com/search?q=rio+casa+di+carta&tbm=isch&ved=2ahUKEwjx0ZLUo7v9AhVksCcCHUvPCN4Q2-cCegQIABAA&oq=rio+casa+di+carta&gs_lcp=CgNpbWcQAzIECAAQQzIECAAQQzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIECAAQQzIFCAAQgAQ6BAgjECc6BggAEAgQHjoECAAQAzoICAAQsQMQgwE6CwgAEIAEELEDEIMBOggIABCABBCxAzoHCAAQsQMQQ1CRBliIGGDYGGgAcAB4AYABf4gBogqSAQQxNy4xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=ZY7_Y7EL5OCewQ_LnqPwDQ&bih=956&biw=727#imgrc=h7Pf7yOtaw4R_M",
+    alt: "RIO",
+  },
+  {
+    title: "Professore",
+    src: "https://www.google.com/search?q=professore+casa+di+carta&tbm=isch&ved=2ahUKEwj65rrgo7v9AhWCTaQEHQARAs4Q2-cCegQIABAA&oq=professore&gs_lcp=CgNpbWcQARgAMgQIABBDMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgQIIxAnOgQIABADOggIABCABBCxAzoICAAQsQMQgwE6CwgAEIAEELEDEIMBUNUGWNUNYIYVaABwAHgAgAFZiAGNBpIBAjExmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=fo7_Y_qvMoKbkdUPgKKI8Aw&bih=956&biw=727#imgrc=onRm8G0Olro-MM",
+    alt: "PROF",
+  },
+];
