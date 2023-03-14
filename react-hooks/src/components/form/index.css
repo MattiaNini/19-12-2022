@@ -1,0 +1,26 @@
+.Form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  margin-left: 20px;
+  gap: 8px;
+}
+
+.Form input,
+.Form button {
+  width: 180px;
+  border-radius: 8px;
+  padding: 7px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.35);
+  border: none;
+  outline: none;
+}
+
+.Form button {
+  width: 200px;
+}
+
+.Form button:hover {
+  background-color: rgb(9, 54, 180);
+  color: white;
+}
