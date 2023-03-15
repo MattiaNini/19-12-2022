@@ -1,0 +1,16 @@
+.App {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(18, 18, 139, 1) 37%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.App h1 {
+  font: italic 1.2em "Fira Sans", serif;
+  color: white;
+  text-align: center;
+  font-size: 95px;
+}
