@@ -1,0 +1,24 @@
+.App {
+  background: rgb(70, 70, 70);
+  background: linear-gradient(
+    90deg,
+    rgba(70, 70, 70, 1) 0%,
+    rgba(112, 0, 0, 1) 100%,
+    rgba(128, 91, 40, 1) 100%
+  );
+}
+
+.App h1 {
+  font: italic 1.2em "Fira Sans", serif;
+  color: white;
+  text-align: center;
+  font-size: 95px;
+}
+
+.App__miniCards {
+  display: flex;
+  gap: 10px;
+  margin: 0 60px;
+  padding: 10px;
+  overflow-x: scroll;
+}

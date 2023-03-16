@@ -1,0 +1,13 @@
+.Hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 300px;
+}
+
+.Hero img {
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+}
