@@ -1,0 +1,28 @@
+.Card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 400px;
+  color: black;
+  background: rgb(246, 246, 246);
+  background: linear-gradient(
+    90deg,
+    rgba(246, 246, 246, 1) 0%,
+    rgba(255, 237, 203, 1) 100%
+  );
+  border: 2px solid wheat;
+  border-radius: 10px;
+  gap: 10px;
+
+  img {
+    width: 200px;
+    height: 200px;
+  }
+
+  &__content {
+    ul {
+      padding-left: 16px;
+    }
+  }
+}
