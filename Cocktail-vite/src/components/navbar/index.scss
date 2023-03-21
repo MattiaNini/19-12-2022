@@ -1,0 +1,42 @@
+@import "../styles/variables";
+
+.Navbar {
+  &__top {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: $secondary-color;
+    margin-left: 35px;
+  }
+
+  img {
+    height: 70px;
+    width: 90px;
+    margin-top: 3px;
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+    color: $secondary-color;
+  }
+
+  ul {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-left: -50px;
+    list-style-type: none;
+  }
+
+  hr {
+    margin-top: 30px;
+    width: 80%;
+  }
+
+  li {
+    cursor: pointer;
+  }
+}
