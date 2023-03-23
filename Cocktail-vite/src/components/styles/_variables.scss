@@ -1,0 +1,19 @@
+//COLORI
+$primary-color: #0d0c22;
+$secondary-color: rgb(246, 246, 246);
+$card-color: linear-gradient(
+  90deg,
+  rgba(246, 246, 246, 1) 0%,
+  rgba(255, 237, 203, 1) 100%
+);
+$active-color: linear-gradient(
+  90deg,
+  rgba(246, 246, 246, 1) 0%,
+  rgba(241, 219, 180, 1) 0%
+);
+$active-button-color: radial-gradient(
+  circle,
+  rgba(246, 246, 246, 1) 0%,
+  rgba(97, 81, 53, 1) 0%
+);
+$footer-color: rgba(217, 177, 101, 1);
