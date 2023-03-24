@@ -1,0 +1,8 @@
+@import "./components/styles/variables";
+
+.App {
+  margin: 0px;
+  background-color: $primary-color;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
