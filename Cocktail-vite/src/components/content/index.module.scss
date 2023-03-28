@@ -1,0 +1,46 @@
+@import "../styles/variables";
+
+.Content {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+
+  .title {
+    display: flex;
+    gap: 1305px;
+    margin-top: 25px;
+    margin-left: 40px;
+  }
+
+  .title h2 {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    box-shadow: 6px 6px 0 -1px wheat;
+  }
+
+  img {
+    height: 70px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 30px;
+    margin-left: 40px;
+  }
+
+  button {
+    width: 130px;
+    height: 30px;
+    border: 0;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    background: $secondary-color;
+    background: $active-color;
+  }
+}
